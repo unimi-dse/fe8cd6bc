@@ -1,7 +1,7 @@
 ---
 title: "CrimeAnalyzer"
 author: "Nataliya Maksemyuk"
-output: html_document
+output: md_document
 ---
 
 ```{r setup, include=FALSE}
@@ -28,29 +28,26 @@ get_data()
 ```
 **Downloads the dataset**
 
-## Usage
+```R
+rate()
+```
+**Compute the rate of crimes for each state in 100000**
 
 ```R
-require(CrimeAnalyzer)
+min_rate()
 ```
 
-## Usage
+**Shows the State with the lowest rate**
 
 ```R
-require(CrimeAnalyzer)
+correlation()
 ```
-
-## Usage
+**Evaluate the correlation between the total population and the rate**
 
 ```R
-require(CrimeAnalyzer)
+rate_by_region()
 ```
-
-## Usage
-
-```R
-require(CrimeAnalyzer)
-```
+**Evaluate the rate by the region, grouping each state**
 
 
 
