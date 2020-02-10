@@ -1,0 +1,57 @@
+---
+title: "CrimeAnalyzer"
+author: "Nataliya Maksemyuk"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Installation
+
+
+```R
+devtools::install_github('unimi-dse/fe8cd6bc')
+```
+
+## Usage
+
+```R
+require(CrimeAnalyzer)
+```
+
+### Functions
+
+```R
+get_data()
+```
+**Downloads the dataset**
+
+## Usage
+
+```R
+require(CrimeAnalyzer)
+```
+
+## Usage
+
+```R
+require(CrimeAnalyzer)
+```
+
+## Usage
+
+```R
+require(CrimeAnalyzer)
+```
+
+## Usage
+
+```R
+require(CrimeAnalyzer)
+```
+
+
+
+
