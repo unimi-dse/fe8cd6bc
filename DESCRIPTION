@@ -1,0 +1,12 @@
+Package: CrimeAnalyzer
+Type: Package
+Title: CrimeAnalyzer
+Version: 0.1.0
+Author: Nataliya Maksemyuk
+Maintainer: Nataliya Maksemyuk <nataliyamaksemyuk@gmail.com>
+Description: This package analyzes the murders in the USA to find the safest state to move in
+License: GPL-2
+Encoding: UTF-8
+LazyData: TRUE
+Imports: devtools, dslabs, ggplot2
+
