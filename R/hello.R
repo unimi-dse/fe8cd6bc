@@ -11,7 +11,7 @@ get_data <- function (data=NULL){
   return(data_frame)
 }
 
-
+#CIAO
 # function rate
 rate <- function(n){
   x <- murders$total / murders$population * n
