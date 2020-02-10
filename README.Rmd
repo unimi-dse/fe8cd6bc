@@ -31,23 +31,23 @@ get_data()
 ```R
 rate()
 ```
-**Compute the rate of crimes for each state in 100000**
+**Computes the rate of crimes for each state in 100000**
 
 ```R
 min_rate()
 ```
 
-**Shows the State with the lowest rate**
+**Shows the state with the lowest rate**
 
 ```R
 correlation()
 ```
-**Evaluate the correlation between the total population and the rate**
+**Evaluates the correlation between the total population and the rate**
 
 ```R
 rate_by_region()
 ```
-**Evaluate the rate by the region, grouping each state**
+**Evaluates the rate by region**
 
 
 
