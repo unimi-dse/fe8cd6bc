@@ -9,5 +9,4 @@ License: GPL-2
 Encoding: UTF-8
 LazyData: TRUE
 Imports: dslabs, ggplot2
-Depends: dslabs, ggplot2
 RoxygenNote: 7.0.2
