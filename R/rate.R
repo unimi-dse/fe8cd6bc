@@ -13,6 +13,6 @@
 
 
 rate <- function(n=100000){
-  x <- murders$total / murders$population * n
+  x <- dslabs::murders$total / dslabs::murders$population * n
   x
 }
