@@ -15,8 +15,6 @@
 
 
 get_data <- function(){
-  data(murders)
-  write.csv(murders, file = 'murders.csv')
   murders <- read.csv('murders.csv')
   return(murders)
 }
