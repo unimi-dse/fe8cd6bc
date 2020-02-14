@@ -13,6 +13,6 @@
 
 
 rate_by_region <- function(){
-  rate <- rate(100000)
-  boxplot(rate ~ region, data=murders)
+  rate <- rate()
+  boxplot(rate ~ region, data=get_data())
 }
