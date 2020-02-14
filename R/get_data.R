@@ -15,6 +15,7 @@
 
 
 get_data <- function(){
-  murders <- read.csv('murders.csv')
+  murders <- read.csv('https://raw.githubusercontent.com/unimi-dse/fe8cd6bc/master/murders.csv',header = TRUE, sep = ',')
   return(murders)
 }
+
