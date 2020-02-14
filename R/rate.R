@@ -2,7 +2,7 @@
 #'
 #'compute the rate in 100000
 #'
-#'@param n=100000
+#'@param
 #'
 #'@return a dataset of the rate for each state
 #'

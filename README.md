@@ -18,9 +18,6 @@ Usage
 
 **Computes the rate of crimes for each state in 100000**
 
-    min_rate()
-
-**Shows the state with the lowest rate**
 
     correlation()
 
