@@ -12,6 +12,7 @@
 #'
 
 correlation <- function(){
+  murders <- get_data()
   murders_rate <- rate()
   total_population <- murders$total
   qplot(murders_rate, total_population)
