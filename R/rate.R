@@ -13,6 +13,7 @@
 
 
 rate <- function(n=100000){
-  x <- dslabs::murders$total / dslabs::murders$population * n
+  murders <- read.csv('murders.csv')
+  x <- murders$total / murders$population * n
   x
 }
