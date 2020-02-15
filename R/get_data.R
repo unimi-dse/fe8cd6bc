@@ -14,9 +14,16 @@
 
 
 
+
 get_data <- function(){
-  murders <- read.csv('https://raw.githubusercontent.com/unimi-dse/fe8cd6bc/master/murders.csv',header = TRUE, sep = ',')
+  murders <- read.csv(system.file("extdata", "murders.csv", package = "prova1"), header = TRUE, sep = ",")
   return(murders)
 }
+
+
+
+
+
+
 
 
