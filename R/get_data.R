@@ -19,3 +19,4 @@ get_data <- function(){
   return(murders)
 }
 
+
