@@ -4,10 +4,7 @@
 \alias{rate}
 \title{rate}
 \usage{
-rate(n = 1e+05)
-}
-\arguments{
-\item{n=100000}{}
+rate()
 }
 \value{
 a dataset of the rate for each state

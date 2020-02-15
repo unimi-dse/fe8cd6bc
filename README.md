@@ -20,9 +20,16 @@ Usage
 
 
     correlation()
+    
+**Computes the rate of crimes for each state in 100000**
 
-**Evaluates the correlation between the total population and the rate**
+
+    l1regression()
+
+**Performs a minimum absolute residual (L1) regression**
 
     rate_by_region()
 
 **Evaluates the rate by region**
+
+ 
