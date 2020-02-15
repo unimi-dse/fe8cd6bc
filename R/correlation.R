@@ -12,8 +12,8 @@
 #'
 
 correlation <- function(){
-  murders <- get_data()
-  murders_rate <- rate()
+  murders <- prova1::get_data()
+  murders_rate <- prova1::rate()
   total_population <- murders$total
   plot(murders_rate, total_population)
 }
