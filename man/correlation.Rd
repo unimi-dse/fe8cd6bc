@@ -4,7 +4,10 @@
 \alias{correlation}
 \title{correlation}
 \usage{
-correlation()
+correlation(data = NULL)
+}
+\arguments{
+\item{data}{dataframe. If \code{NULL} (the default) selects murders dataset.}
 }
 \value{
 Graph showing the correlation
