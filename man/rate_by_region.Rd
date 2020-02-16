@@ -7,10 +7,10 @@
 rate_by_region()
 }
 \value{
-graph which shows the rate by region
+graph showing the rate by region
 }
 \description{
-evaluate the rate by region, grouping each state
+evaluates the rate by region
 }
 \examples{
 rate_by_region()

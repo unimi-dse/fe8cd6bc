@@ -6,7 +6,7 @@ Installation
 Usage
 -----
 
-    require(prova1)
+    require(CrimeAnalyzer)
 
 ### Functions
 

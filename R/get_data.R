@@ -1,6 +1,6 @@
 #'get_data
 #'
-#'retrieve a dataset with state (US state), abb (abbreviation of US state), region (geographical US region), population (state population 2010), total (number of gun murders in state 2010)
+#'retrieves a dataset with state (US state), abb (abbreviation of US state), region (geographical US region), population (state population 2010), total (number of gun murders in state 2010)
 #'
 #'@param
 #'

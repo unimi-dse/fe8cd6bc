@@ -2,6 +2,6 @@
 
 export(correlation)
 export(get_data)
-export(l1regression)
 export(rate)
 export(rate_by_region)
+export(regression)

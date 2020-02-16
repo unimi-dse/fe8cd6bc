@@ -1,10 +1,10 @@
 #'rate
 #'
-#'compute the rate in 100000
+#'computes the rate of crimes for each state in 100000
 #'
 #'@param data dataframe. If \code{NULL} (the default) selects murders dataset.
 #'
-#'@return a dataset of the rate for each state
+#'@return a list of murder rates (in 100000) for each state
 #'
 #'@examples
 #'rate()

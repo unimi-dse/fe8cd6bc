@@ -13,7 +13,7 @@ correlation(data = NULL)
 Graph showing the correlation
 }
 \description{
-evaluate the correlation between the rate and the population
+evaluates the correlation between the total murders and the population
 }
 \examples{
 correlation()

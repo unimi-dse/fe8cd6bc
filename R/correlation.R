@@ -1,6 +1,6 @@
 #'correlation
 #'
-#'evaluate the correlation between the rate and the population
+#'evaluates the correlation between the total murders and the population
 #'
 #'@param data dataframe. If \code{NULL} (the default) selects murders dataset.
 #'
@@ -16,10 +16,9 @@
 correlation <- function(data=NULL){
   if(is.null(data))
     data <-get_data()
-  population <- data$population
-  total <- data$total
-  plot(population, total)
+  ggplot(data, aes(x= total, y=population )) + geom_point()
 }
+
 
 
 

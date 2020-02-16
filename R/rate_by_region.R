@@ -1,10 +1,10 @@
 #'rate_by_region
 #'
-#'evaluate the rate by region, grouping each state
+#'evaluates the rate by region
 #'
 #'@param
 #'
-#'@return graph which shows the rate by region
+#'@return graph showing the rate by region
 #'
 #'@examples
 #'rate_by_region()

@@ -10,10 +10,10 @@ rate(data = NULL)
 \item{data}{dataframe. If \code{NULL} (the default) selects murders dataset.}
 }
 \value{
-a dataset of the rate for each state
+a list of murder rates (in 100000) for each state
 }
 \description{
-compute the rate in 100000
+computes the rate of crimes for each state in 100000
 }
 \examples{
 rate()
