@@ -12,6 +12,6 @@
 #'
 
 correlation <- function(){
-  plot(rate(), get_data()$total)
+  plot(rate() = "rate", get_data()$population = "total population")
 }
 
