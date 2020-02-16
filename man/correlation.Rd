@@ -10,7 +10,7 @@ correlation()
 Graph showing the correlation
 }
 \description{
-evaluate the correlation between the rate and the total population
+evaluate the correlation between the rate and the population
 }
 \examples{
 correlation()
