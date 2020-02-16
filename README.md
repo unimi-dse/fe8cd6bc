@@ -24,8 +24,17 @@ Usage
 **Evaluates the correlation between the total murders and the population**
 
 
-    rate_by_region()
+     rate_by_region()
+
+**Evaluates the rate by region**
+    
+    
+    
+    l1regression()
 
 **Evaluates the rate by region**
 
+ 
+ 
+ 
  
