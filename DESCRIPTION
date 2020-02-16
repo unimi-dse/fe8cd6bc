@@ -8,6 +8,5 @@ Description: This package analyzes the murders in the USA to find the safest sta
 License: GPL-2
 Encoding: UTF-8
 LazyData: TRUE
-Imports: dslabs, tidyverse, ggplot2
-Depends: L1pack, tidyverse
+Imports: dslabs, tidyverse, ggplot2, L1pack, tidyverse
 RoxygenNote: 7.0.2

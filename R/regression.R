@@ -16,6 +16,6 @@
 regression <- function(data=NULL){
   if(is.null(data))
     data <-get_data()
-  l1fit(data$total, data$population, intercept = TRUE, tolerance = 1e-07, print.it = TRUE)
+  L1pack::l1fit(data$total, data$population, intercept = TRUE, tolerance = 1e-07, print.it = TRUE)
 }
 
