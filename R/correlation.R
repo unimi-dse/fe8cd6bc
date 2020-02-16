@@ -1,6 +1,6 @@
 #'correlation
 #'
-#'evaluate the correlation between the rate and the total population
+#'evaluate the correlation between the rate and the population
 #'
 #'@param
 #'
@@ -12,6 +12,6 @@
 #'
 
 correlation <- function(){
-  plot(rate() = "rate", get_data()$population = "total population")
+  plot(rate() = "rate", get_data()$population = "population")
 }
 

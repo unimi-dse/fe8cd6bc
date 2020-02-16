@@ -21,7 +21,7 @@ Usage
 
     correlation()
     
-**Computes the rate of crimes for each state in 100000**
+**Evaluates the correlation between the rate and the population**
 
 
     l1regression()
