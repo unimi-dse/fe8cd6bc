@@ -21,8 +21,7 @@ Usage
 
     correlation()
     
-**Evaluates the correlation between the rate and the population**
-
+**Evaluates the correlation between the total murders and the population**
 
 
     rate_by_region()
