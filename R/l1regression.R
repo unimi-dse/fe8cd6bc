@@ -14,7 +14,10 @@
 
 
 l1regression <- function(){
-  murders <- prova1::get_data()
-  l1fit(murders$population, murders$total, intercept = TRUE, tolerance = 1e-07, print.it = TRUE)
+  murders <- get_data()
+  x <- murders$population
+  y <- murders$total
+  l1fit(x, y, intercept = TRUE, tolerance = 1e-07, print.it = TRUE)
 }
+
 
