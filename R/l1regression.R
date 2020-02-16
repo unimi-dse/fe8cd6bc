@@ -4,7 +4,7 @@
 #'
 #'@param
 #'
-#'@return the result of the regression
+#'@return list defining the regression
 #'
 #'@examples
 #'l1regression()
