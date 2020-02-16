@@ -13,7 +13,7 @@
 
 
 get_data <- function(){
-  murders <- read.csv(system.file("extdata", "murders.csv", package = "CrimeAnalyzer"), header = TRUE, sep = ",")
+  murders <- read.csv(system.file("extdata", "murders_new.csv", package = "CrimeAnalyzer"), header = TRUE, sep = ",")
   return(murders)
 }
 
