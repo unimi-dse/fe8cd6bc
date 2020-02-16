@@ -24,9 +24,6 @@ Usage
 **Evaluates the correlation between the rate and the population**
 
 
-    l1regression()
-
-**Performs a minimum absolute residual (L1) regression**
 
     rate_by_region()
 
