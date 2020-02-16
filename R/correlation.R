@@ -16,7 +16,7 @@
 correlation <- function(data=NULL){
   if(is.null(data))
     data <-get_data()
-  ggplot(data, aes(x= total, y=population )) + geom_point()
+  ggplot2::ggplot(data, aes(x= total, y=population )) + geom_point()
 }
 
 
