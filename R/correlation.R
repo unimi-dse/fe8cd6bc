@@ -17,11 +17,10 @@
 
 
 correlation <- function(){
-  population <- get_data()$population
-  rate <- rate()
-  plot(rate, population)
+  ggplot(get_data(), aes(x = population, y = total)) +
+    geom_point() +
+    stat_smooth()
 }
-
 
 
 
