@@ -30,9 +30,9 @@ Usage
     
     
     
-    l1regression()
+    regression()
 
-**Evaluates the rate by region**
+**Performs a Minimum Absolute Residual (L1) Regression**
 
  
  

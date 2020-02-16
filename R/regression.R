@@ -1,19 +1,19 @@
-#'l1regression
+#'regression
 #'
-#'performs an L1 regression
+#'Performs a Minimum Absolute Residual (L1) Regression
 #'
 #'@param
 #'
 #'@return list defining the regression
 #'
 #'@examples
-#'l1regression()
+#'regression()
 #'@export
 #'
 
 
 
-l1regression <- function(){
+regression <- function(){
   murders <- get_data()
   x <- murders$population
   y <- murders$total
