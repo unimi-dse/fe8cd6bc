@@ -11,7 +11,21 @@
 #'@export
 #'
 
+
+
+
+
+
 correlation <- function(){
-  plot(rate() = "rate", get_data()$population = "population")
+  murders <- get_data()
+  population <- murders$population
+  rate <- rate()
+    ggplot(aes(x = rate, y = population)) +
+    geom_line() +
+    labs(title = title, y = "Population", x = "Rate") +
+    theme_tq()
 }
+
+
+
 
