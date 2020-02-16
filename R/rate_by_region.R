@@ -13,6 +13,6 @@
 
 
 rate_by_region <- function(){
-  rate <- prova1::rate()
-  boxplot(rate ~ region, data=prova1::get_data())
+  rate <- rate()
+  boxplot(rate ~ region, data = get_data())
 }
