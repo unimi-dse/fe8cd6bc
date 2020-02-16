@@ -17,14 +17,11 @@
 
 
 correlation <- function(){
-  murders <- get_data()
-  population <- murders$population
+  population <- get_data()$population
   rate <- rate()
-    ggplot(aes(x = rate, y = population)) +
-    geom_line() +
-    labs(title = title, y = "Population", x = "Rate") +
-    theme_tq()
+  plot(rate, population)
 }
+
 
 
 
