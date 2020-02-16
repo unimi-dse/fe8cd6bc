@@ -16,7 +16,7 @@
 correlation <- function(data=NULL){
   if(is.null(data))
     data <-get_data()
-  tidyverse::ggplot(data, aes(x= total, y=population )) + geom_point()
+  ggplot(data, aes(x= total, y=population )) + geom_point()
 }
 
 
