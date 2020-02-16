@@ -13,7 +13,7 @@
 
 
 rate <- function(){
-  murders <- prova1::get_data()
+  murders <- get_data()
   x <- murders$total / murders$population * 100000
   return(x)
 }
